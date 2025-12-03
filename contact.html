@@ -62,9 +62,9 @@
                         <div class="header-top-social">
                             <span>Follow Us: </span>
                             <a href="https://www.facebook.com/painting.home.2025" target="_blank"><i class="fab fa-facebook"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <!--<a href="#"><i class="fab fa-twitter"></i></a>
+     <a href="#"><i class="fab fa-instagram"></i></a>
+     <a href="#"><i class="fab fa-linkedin"></i></a>-->
                         </div>
                     </div>
                 </div>
@@ -366,9 +366,9 @@
                     <div class="col-md-6 align-self-center">
                         <ul class="footer-social">
                             <li><a href="https://www.facebook.com/painting.home.2025" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                            <!--<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+    <li><a href="#"><i class="fab fa-youtube"></i></a></li>-->
                         </ul>
                     </div>
                 </div>
@@ -401,7 +401,7 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
     <script type="text/javascript">
         (function () {
-            emailjs.init("cuG5gRficDd6adaRd");
+            emailjs.init("wFJZc0AMigDV-4nFc");
         })();
 
         document.getElementById('contact-form').addEventListener('submit', function (event) {
@@ -410,7 +410,7 @@
             const formData = new FormData(this);
             console.log('Selected Service:', formData.get('user_services'));
 
-            emailjs.sendForm('service_s97jp1c', 'template_kfe0n85', this)
+            emailjs.sendForm('service_d7k9pah', 'template_szbtc5a', this)
                 .then(function (response) {
                     document.getElementById('successMessage').style.display = 'inline';
                     document.getElementById('successMessage').innerText = "Message sent successfully!";
